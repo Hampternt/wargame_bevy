@@ -30,7 +30,7 @@ fn setup(
     commands.spawn((
         Mesh2d(mesh_handle.clone()),
         MeshMaterial2d(material.clone()),
-        Transform::from_translation(Vec3::new(870, 0.0, 0.0)), // Magic number!
+        Transform::from_translation(Vec3::new(870.0, 0.0, 0.0)), // Magic number!
     ));
 }
 
